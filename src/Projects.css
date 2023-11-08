@@ -1,0 +1,63 @@
+h1, h2 {
+    text-align: center;
+}
+
+#image {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translateX(-50%);
+}
+
+.para {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    right: 20px;
+    border: solid 1px;
+    background-color: rgb(140, 32, 241);
+    border-color: rgba(137, 43, 226, 0.664);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px orange;
+}
+
+#monkey {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 750px;
+    transform: translateX(-50%);
+}
+
+#heading {
+    position: absolute;
+    top: 680px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#info {
+    position: absolute;
+    top: 1050px;
+    left: 20px;
+    right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px;
+    background-color: rgb(140, 32, 241);
+    box-shadow: 0 0 10px orange;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    #image, #monkey, #heading, .para, #info {
+        position: static;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        transform: none;
+    }
+}

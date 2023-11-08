@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  height: 100px;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: rgba(0, 0, 0, 0.658);
+  box-shadow: 0 0 10px red;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: chocolate;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h2 {
+  color: white;
+}
+
+#photo {
+  height: 300px;
+  width: 300px;
+  border: solid 5px;
+  border-radius: 50%;
+  border-color: rgba(0, 0, 0, 0.644);
+  border: solid 5px;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+.description {
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+body {
+  background-color: rgba(137, 43, 226, 0.63);
+}
+
+.animation {
+  animation: fadeInAndOut 3s linear 1s alternate both;
+}
+
+@keyframes fadeInAndOut {
+  0% {
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  #photo {
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  .description {
+    position: static;
+    text-align: center;
+    margin: 20px;
   }
 }

@@ -1,0 +1,74 @@
+img {
+   height: 300px;
+   width: 300px;
+   border: solid 1px;
+   position: absolute;
+   left: 10px;
+   top: 60px;
+}
+
+h1 {
+   text-align: center;
+   color: white;
+}
+
+#css {
+   position: absolute;
+   top: 60px;
+   left: 350px;
+}
+
+#javascript {
+   position: absolute;
+   top: 60px;
+   left: 700px;
+}
+
+#java {
+   position: absolute;
+   top: 60px;
+   left: 1010px;
+}
+
+#react {
+   position: absolute;
+   top: 400px;
+   left: 20px;
+}
+
+#bootstrap {
+   position: absolute;
+   top: 400px;
+   left: 340px;
+}
+
+#jquery {
+   position: absolute;
+   top: 400px;
+   left: 700px;
+}
+
+#node {
+   position: absolute;
+   top: 400px;
+   left: 1050px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+   img {
+       position: static;
+       width: 80%;
+       margin: 20px auto;
+   }
+
+   h1 {
+       text-align: center;
+   }
+
+   #css, #javascript, #java, #react, #bootstrap, #jquery, #node {
+       position: static;
+       width: 80%;
+       margin: 20px auto;
+   }
+}
