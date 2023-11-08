@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Vrushabacharya/mywebsite/static/css/main.47185f20.css",
+    "main.js": "/Vrushabacharya/mywebsite/static/js/main.bebbae7b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Vrushabacharya/mywebsite/static/js/787.1ed0c42c.chunk.js",
+    "static/media/vrushab.jpg": "/Vrushabacharya/mywebsite/static/media/vrushab.833e4e09a9479d9ffeba.jpg",
+    "index.html": "/Vrushabacharya/mywebsite/index.html",
+    "main.47185f20.css.map": "/Vrushabacharya/mywebsite/static/css/main.47185f20.css.map",
+    "main.bebbae7b.js.map": "/Vrushabacharya/mywebsite/static/js/main.bebbae7b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Vrushabacharya/mywebsite/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47185f20.css",
+    "static/js/main.bebbae7b.js"
+  ]
+}
